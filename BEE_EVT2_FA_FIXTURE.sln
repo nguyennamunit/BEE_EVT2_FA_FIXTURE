@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEE_EVT2_FA_FIXTURE", "BEE_EVT2_FA_FIXTURE\BEE_EVT2_FA_FIXTURE.csproj", "{0867C0C5-EDC6-4B1E-9BC0-5E43C94443DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0867C0C5-EDC6-4B1E-9BC0-5E43C94443DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0867C0C5-EDC6-4B1E-9BC0-5E43C94443DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0867C0C5-EDC6-4B1E-9BC0-5E43C94443DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0867C0C5-EDC6-4B1E-9BC0-5E43C94443DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D24EB070-0561-4AA5-8E44-BD58A487C1A7}
+	EndGlobalSection
+EndGlobal
