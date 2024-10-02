@@ -14,7 +14,7 @@ namespace BEE_EVT2_FA_FIXTURE
         {///comman
             InitializeComponent();
             LoadDataFromJson();
-            SetColumnSizes();
+         
         }   
 
         private void Form1_Load(object sender, EventArgs e)
@@ -24,28 +24,7 @@ namespace BEE_EVT2_FA_FIXTURE
             dataGridView1.RowPrePaint += new DataGridViewRowPrePaintEventHandler(dataGridView1_RowPrePaint);
 
         }
-        private void SetColumnSizes()
-        {
-            if (dataGridView1.Columns.Count > 0)
-            {
-                dataGridView1.Columns[0].Width=50;           
-                dataGridView1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;       
-                dataGridView1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-                dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
-                dataGridView1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.None;   
-                dataGridView1.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;       
-         
-            }
-            dataGridView1.RowTemplate.Height = 35;
-            dataGridView1.DefaultCellStyle.Font = new Font("Times New Roman", 13);
-            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 14);
-            dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridView1.Columns[6].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-
-        }
+      
 
         private void LoadDataFromJson()
         {
@@ -60,9 +39,7 @@ namespace BEE_EVT2_FA_FIXTURE
                 }
             } 
             dataGridView1.DataSource = users;
-            for (int i = 0; i < dataGridView1.Rows.Count; i++) {
-                users[i].ID = i+1;
-            }
+
         }
         private void size()
         {
